@@ -1,0 +1,194 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	/*margin-top: 10px; Padding Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	/*padding-bottom: 60px;  Required for sticky footer. */
+	background: #f2f2f2;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+#maincontainer {
+	background: #ffffff;
+	border-style: solid;
+	border-right-width: 15px;
+    border-left-width: 15px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-color: #D1D1D1;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    bottom: 0;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+	min-height: 150px;
+    max-height: 164px;
+	background: url('../images/header_background.jpg') center center no-repeat scroll;
+	background-color: #ffffcc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    border-radius: 4px;
+	padding: 5px;
+	/*background-color: #900;*/
+	margin-bottom: 10px;
+	color: #000;
+    text-shadow: 1px 2px 0 #8585ad;
+    font-size: 150%;
+
+}
+.business-header p {
+	font-style: italic;
+	margin-bottom: 4px;
+	}
+
+.business-header h1 {
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+#logo {
+	float: left;
+	width: 161px;
+	margin-right: 5px;
+    margin: 10px;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    /*margin: 50px 0;*/
+	/*position: absolute; /*Remove to keep inside main container*/
+ 	bottom: 0;
+  	/*width: 100%;
+  	 Set the fixed height of the footer here */
+  	height: 60px;
+  	background-color: #f5f5f5;
+	border-radius: 4px;
+	margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+	clear: both;
+}
+
+#google_translate_element 	{
+	Float: Right;
+}
+
+.col-sm-4 {
+    text-align: center;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.carousel{
+    /*background: #2f4357; */
+    margin-top: 10px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.myCarouselContainer{
+	margin: 0px;
+}
+
+.carousel-inner .item {
+	background: center center no-repeat scroll;
+	height: 210px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	border-radius: 4px;
+	padding: 5px;
+	color: #000;
+	margin: 0px;
+}
+
+.carousel-inner .item .inner {
+	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.carousel-inner .item p {
+	padding: 2px;
+	font-size: x-large;
+	margin: 0px;
+	font-weight: 500;
+}
+
+.carousel-inner .item h2 {
+	padding: 2px;
+	font-size: xx-large;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.carousel-inner .black {
+	 color: black;
+	 text-shadow: 0px 0px 15px 15px white;
+}
+
+.carousel-inner .white {
+	 color: white;
+	 text-shadow: 0 1px 3px rgba(0, 0, 0, 7);
+}
+
+@media screen and (min-width: 768px)
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -5px;
+}
+@media screen and (min-width: 768px)
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: -10px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}

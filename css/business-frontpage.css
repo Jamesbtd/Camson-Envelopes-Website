@@ -139,13 +139,11 @@ footer {
 	padding: 5px;
 	color: #000;
 	margin: 0px;
+	opacity: 0.8;
 }
 
 .carousel-inner .item .inner {
-	margin-bottom: 10px;
-	margin-top: 5px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin: 5px 50px 10px 50px;
 }
 
 .carousel-inner .item p {
@@ -156,10 +154,16 @@ footer {
 }
 
 .carousel-inner .item h2 {
-	padding: 2px;
+	padding: 2px 2px 0px 2px;
 	font-size: xx-large;
-	font-weight: bold;
-	margin-top: 0px;
+	font-weight: 600;	
+	margin: 0px;
+}
+
+.carousel-inner .item h3 {
+	font-weight: 600;	
+	margin: 5px 0px;
+	color: red;
 }
 
 .carousel-inner .black {
@@ -172,23 +176,48 @@ footer {
 	 text-shadow: 0 1px 3px rgba(0, 0, 0, 7);
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px) {
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-right: -5px;
-}
-@media screen and (min-width: 768px)
+}}
+@media screen and (min-width: 768px) {
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
     width: 30px;
     height: 30px;
     margin-top: -10px;
     font-size: 30px;
-}
+}}
 
 .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
-    right: 50%;
+    right: 25%;
     margin-right: -10px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left: 25%;
+}
+
+.carousel-indicators {
+	margin-bottom: 0px;
+	top: 183px;
 }
 
 .navbar {
 	margin-bottom: 0px;
+}
+
+.camson-content {
+	padding: 0px 25px;
+}
+
+.camson-content p {
+	padding: 0px 0px 5px 0px;
+}
+
+.camson-homeAd {
+	padding: 10px;
+}
+
+.camson-homeAd h2 {
+	text-align: center;
 }

@@ -1,28 +1,23 @@
-<?php include '/includes/head.php';?>
+<?php
 
-    <title>Camson Envelopes - Coloured, Printed, Plain, Business and Invitation Envelopes</title>
-    <meta name="keywords" content="envelopes, c4, c5, dl, invitation, colour, bespoke" />
-    <meta name="description" content="Camson Envelopes supplies envelopes in any quantity and size. Including DL, C2, C5 sizes, bespoke, personalised, invitation, printed and coloured envelopes." />
+if (is_file('config.php')) {
+	require_once('config.php');
+};
 
-<?php include '/includes/header.php';?>
+$page_title = 'Camson Envelopes - Coloured, Printed, Plain, Business and Invitation Envelopes';
+$page_description = 'Camson Envelopes supplies envelopes in any quantity and size. Including DL, C2, C5 sizes, bespoke, personalised, invitation, printed and coloured envelopes.';
+$page_keywords = 'envelopes, c4, c5, dl, invitation, colour, bespoke';
 
-<!-- #BeginEditable "Tagline" -->
+include ($path . '/includes/head.php');
 
-<!-- #EndEditable -->
-        <!-- Page Content -->
-        <div class="row">
-            <div class="col-sm-8 camson-content">
-			    <h3><strong>TITLE</strong></h3>
-<!-- InstanceBeginEditable name="main" -->
+include ($path . '/includes/header.php');?>
 
-<!-- InstanceEndEditable -->
-            </div>
+<!-- Page Content -->
+<div class="row">
 
-            <?php include '/includes/contact_sidebar.php';?>
-
-         </div>
-        <!-- /main content .row -->
-
-           
+	<?php include ($path . '/includes/contact_sidebar.php');?>
+</div>
+<!-- /main content .row -->
+            
     <!-- /.row -->
-<?php include '/includes/footer.php';?>
+<?php include ($path . '/includes/footer.php');?>
